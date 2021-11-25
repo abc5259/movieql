@@ -4,7 +4,7 @@
   "description": "create api with graphQL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon —exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/abc5259/movieql/issues"
   },
-  "homepage": "https://github.com/abc5259/movieql#readme"
+  "homepage": "https://github.com/abc5259/movieql#readme",
+  "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "nodemon": "^2.0.15"
+  },
+  "type": "module"
 }
