@@ -18,7 +18,9 @@
   "homepage": "https://github.com/abc5259/movieql#readme",
   "dependencies": {
     "@babel/cli": "^7.16.0",
-    "graphql-yoga": "^1.18.3"
+    "axios": "^0.24.0",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^3.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
